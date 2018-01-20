@@ -1,12 +1,26 @@
-header, nav {
-    display: ;
-    background-color: aqua;
-    
+body {
+    background-color: skyblue
+}
+
+header,
+nav {
+    /*where is my logo going? help please.*/
+    display: inline-block;
 }
 
 nav {
     float: right;
     background-color: black
+}
+
+header {
+    background-image: url("Personal Geek Logo2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 150px;
+    padding-right: 0px;
+    background-color: blue;
 }
 
 #banner {
@@ -15,23 +29,13 @@ nav {
     justify-content: center;
 }
 
-header {
-	background-image:url("Personal Geek Logo2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left;
-	padding-top: 150px;
-	padding-right: 0px;
-	background-color: blue;
-}
-
 li {
     list-style-type: none;
     margin: 5px;
     padding: 5px;
     display: inline;
-    float:right;
-    background-color:coral;
+    float: right;
+    background-color: coral;
 }
 
 .three-column-layout {
@@ -41,7 +45,8 @@ li {
     margin-right: 1em;
 }
 
-.three-column-layout, h2 {
+.three-column-layout,
+h2 {
     text-align: center;
     padding-bottom: 1em;
 }
@@ -50,9 +55,7 @@ li {
     height: 175px;
 }
 
-.first-column {
-    
-} 
+.first-column {}
 
 .middle-column {
     padding-left: 1em;
@@ -61,19 +64,17 @@ li {
 
 .middle-column p {
     margin-bottom: 2.5em;
-    
+
 }
 
 .third-row {
     padding: 9px;
 }
 
-.last-column {
-    
-} 
+.last-column {}
 
 .third-second-row {
-   margin-top: -1em; 
+    margin-top: -1em;
 }
 
 .third-fourth-row {
