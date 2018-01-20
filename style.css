@@ -1,4 +1,19 @@
-nav, main, { display:block; }
+header, nav {
+    display: ;
+    background-color: aqua;
+    
+}
+
+nav {
+    float: right;
+    background-color: black
+}
+
+#banner {
+    background-image: image(s7nlaf3kefg-markus-spiske.jpg);
+    display: flex;
+    justify-content: center;
+}
 
 header {
 	background-image:url("Personal Geek Logo2.jpg");
@@ -19,51 +34,9 @@ li {
     background-color:coral;
 }
 
-#top-row {
-    padding: 1em;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.leftcol, .rightcol {
-    width: 48%;
-    flex: 1 0 15em;
-    margin: .5em;
-}
-
-#top-row p {
-    color: black;
-}
-
-.top-row-color {
-    color: #BA8810;
-}
-
-#middle-row {
-    padding: 1em;
-    background-color: #0C6572;
-    display: flex;
-    align-items: center;
-}
-
-#last-row {
-    text-align: center;
-    padding: 1em;
-}
-
-#last-row, h2 {
-    padding-bottom: 10px;
-}
-
-.rivers-title {
-    text-align: center;
-    margin: .25em;
-}
-
 .three-column-layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1em;
     margin-right: 1em;
 }
