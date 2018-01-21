@@ -1,54 +1,56 @@
+.container {
+    
+}
+
 body {
     background-color: skyblue
 }
 
-header,
-nav {
-    /*where is my logo going? help please.*/
-    display: inline-block;
-}
-
-nav {
-    float: right;
-    background-color: black
-}
-
 header {
-    background-image: url("Personal Geek Logo2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-top: 150px;
-    padding-right: 0px;
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
 
-#banner {
-    background-image: image(s7nlaf3kefg-markus-spiske.jpg);
+.logo {
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
     display: flex;
     justify-content: center;
 }
 
 li {
     list-style-type: none;
-    margin: 5px;
-    padding: 5px;
-    display: inline;
-    float: right;
+    margin: 10px;
+    padding: 17px;
     background-color: coral;
+    font-size: 20px;
+    font-family: Source Code Pro;
+    
+}
+
+#banner {
+    background-image: image(s7nlaf3kefg-markus-spiske.jpg);
+    display: flex;
+    justify-content: center;
+    background-color: red;
 }
 
 .three-column-layout {
     display: flex;
     justify-content: space-around;
-    margin-top: 1em;
-    margin-right: 1em;
 }
 
 .three-column-layout,
-h2 {
+h1 {
     text-align: center;
-    padding-bottom: 1em;
 }
 
 .three-column-layout img {
