@@ -1,9 +1,11 @@
 .container {
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 
 body {
-    background-color: skyblue
+    margin: 0px;
 }
 
 header {
@@ -12,13 +14,11 @@ header {
 }
 
 .logo {
-    
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 ul {
@@ -30,7 +30,6 @@ li {
     list-style-type: none;
     margin: 10px;
     padding: 17px;
-    background-color: coral;
     font-size: 20px;
     font-family: Source Code Pro;
     
@@ -40,7 +39,6 @@ li {
     background-image: image(s7nlaf3kefg-markus-spiske.jpg);
     display: flex;
     justify-content: center;
-    background-color: red;
 }
 
 .three-column-layout {
@@ -84,11 +82,6 @@ h1 {
 }
 
 footer {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #0C6572;
-    color: #BA8810;
+    background-color: black;
     padding: .5em;
 }
