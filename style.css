@@ -1,7 +1,7 @@
 .container {
     margin-left: 10px;
     margin-right: 10px;
-    
+
 }
 
 body {
@@ -18,8 +18,7 @@ header {
     padding-left: 15px;
 }
 
-nav {
-}
+nav {}
 
 ul {
     display: flex;
@@ -32,7 +31,7 @@ li {
     padding: 17px;
     font-size: 20px;
     font-family: Source Code Pro;
-    
+
 }
 
 #banner {
@@ -49,10 +48,15 @@ li {
 .three-column-layout,
 h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .three-column-layout img {
     height: 175px;
+}
+
+.three-column-layout p {
+    text-align: left;
 }
 
 .first-column {}
