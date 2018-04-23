@@ -1,25 +1,30 @@
 .container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 /*    background-color: #67C8E6;*/
+}
+
+h1, p, li {
+    color: white;
 }
 
 body {
     margin: 0px;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
+    font-family: Source Code Pro;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    
-    
+/*    background-color: black;*/
 }
 
 .logo {
-    margin: -2 5px;
-/*    height: 75%;*/
-/*    width: 75%;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 130px;
+    height: 80px;
 }
 
 nav {}
@@ -31,15 +36,13 @@ ul {
 
 li {
     list-style-type: none;
-    margin: 10px;
-    padding: 17px;
+    padding-top: 17px;
+    padding-left: 40px;
     font-size: 20px;
-    font-family: Source Code Pro;
-
 }
 
 #banner {
-    background-image: image(s7nlaf3kefg-markus-spiske.jpg);
+/*    background-image: image(s7nlaf3kefg-markus-spiske.jpg);*/
     display: flex;
     justify-content: center;
 }
