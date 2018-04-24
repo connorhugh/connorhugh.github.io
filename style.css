@@ -1,10 +1,16 @@
+/*
 .container {
     margin-left: 50px;
     margin-right: 50px;
-/*    background-color: #67C8E6;*/
+    background-color: #67C8E6;
+}
+*/
+
+#blue {
+    color: #00b1dd;
 }
 
-h1, p, li {
+h1, h3, p, li {
     color: white;
 }
 
@@ -17,80 +23,31 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-/*    background-color: black;*/
 }
 
 .logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px;
     width: 130px;
-    height: 80px;
+    height: 130px;
 }
 
-nav {}
+nav {
+    padding-top: 35px;
+    padding-right: 50px;
+}
 
-ul {
+nav ul {
     display: flex;
     justify-content: center;
 }
 
-li {
+nav ul li {
     list-style-type: none;
     padding-top: 17px;
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#banner {
-/*    background-image: image(s7nlaf3kefg-markus-spiske.jpg);*/
-    display: flex;
-    justify-content: center;
-}
-
-.three-column-layout {
-    display: flex;
-    justify-content: space-around;
-}
-
-.three-column-layout,
-h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.three-column-layout img {
-    height: 175px;
-}
-
-.three-column-layout p {
-    text-align: left;
-}
-
-.first-column {}
-
-.middle-column {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.middle-column p {
-    margin-bottom: 2.5em;
-
-}
-
-.third-row {
-    padding: 9px;
-}
-
-.last-column {}
-
-.third-second-row {
-    margin-top: -1em;
-}
-
-.third-fourth-row {
-    margin-top: 3em;
-}
 
 footer {
     background-color: black;
