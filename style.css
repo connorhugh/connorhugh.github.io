@@ -17,18 +17,18 @@ h1, h3, p, li {
 body {
     margin: 0px;
     background-color: #1a1a1a;
-    font-family: Source Code Pro;
+    font-family: source-code-pro, monospace;
+    font-style: normal;
+    font-weight: 200;
+}
+
+p {
+    margin: 0;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
 }
 
 nav {
@@ -42,14 +42,71 @@ nav ul {
 }
 
 nav ul li {
-    list-style-type: none;
     padding-top: 17px;
     padding-left: 40px;
     font-size: 25px;
 }
 
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2.5em;
+}
 
 footer {
-    background-color: black;
     padding: .5em;
+}
+
+.top-bottom-spacing {
+    margin-bottom: 9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inner-spacing {
+    padding: 6em;
+}
+
+.black-bg {
+    background: black;
+}
+
+.logo {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.welcome {
+}
+
+.intro {
+    font-style: italic;
+    font-weight: 100 !important;
+    font-size: 10em;
+    margin: 0;
+}
+
+.subIntro {
+    font-size: 22px;
+    margin-top: -15px;
+    width: 704px;
+    justify-content: flex-start;
+}
+
+.about {
+    flex-direction: row;
+}
+
+.about-heading {
+    display: block;
+    width: 100%;
+}
+
+.descript {
+    
 }
