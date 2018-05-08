@@ -47,12 +47,17 @@ nav ul li {
     font-size: 25px;
 }
 
-nav ul li:hover {
-    color: #00b1dd;
-}
-
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #00b1dd;
 }
 
 h1 {
@@ -116,6 +121,10 @@ footer {
 
 .descript p {
     line-height: 1.6;
+}
+
+.skills ul li {
+    text-align: right;
 }
 
 .contact {
