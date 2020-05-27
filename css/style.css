@@ -123,8 +123,9 @@ footer {
     line-height: 1.6;
 }
 
-.skills ul li {
-    text-align: right;
+.skills-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .contact {
