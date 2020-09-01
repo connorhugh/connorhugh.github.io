@@ -17,8 +17,7 @@ h1, h3, p, li {
 body {
     margin: 0px;
     background-color: #1a1a1a;
-    font-family: source-code-pro, monospace;
-    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;    font-style: normal;
     font-weight: 200;
 }
 
