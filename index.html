@@ -2,128 +2,118 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <meta charset="utf-8">
 
     <title>Home | Connor Hugh</title>
-
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <!--Logo-->
-            <img src="images/logo.png" class="logo" alt="personal logo">
+    <header>
+        <!--Logo-->
+        <img src="images/logo.png" class="logo" alt="personal logo">
 
-            <!--Nav Bar-->
-            <nav>
-                <ul>
-                    <li><a href="#welcome">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!--Nav Bar-->
+        <nav>
+            <ul>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
-            <div id="welcome" class="welcome inner-spacing">
-                <p class="intro">
-                    <span id="blue">Welcome</span>_
-                </p>
+    <main>
+        <section class="welcome">
+            <div>
+                <h1 class="intro blue">Welcome</h1>
                 <p class="subIntro">
                     to my portfolio. <br>
-                    <span id="blue">I am Connor, </span><br>
+                    <span class="blue">I am Connor, </span><br>
                     a frontend web designer.
                 </p>
             </div>
-            
-            <div id="about" class="about black-bg inner-spacing">
-                <img src="images/me-optimized-small1.jpg" alt="me"> 
-                    <div class="descript">
-                        <h1 class="about-heading"><span id="blue">About Me</span>_</h1>
-                        <p>I am a young frontend web designer, currently pursing a Bachelors degree in Web Development and design from Brigham Young University Idaho. I love to make clean minimalist designs.</p>
-                    </div>
+        </section>
+        
+        <section id="about" class="about black-bg">
+            <img src="images/me.jpg" alt="me"> 
+            <div class="descript">
+                <h3 class="about-heading blue">About Me</h3>
+                <p>I am a young frontend web designer, currently pursing a Bachelors degree in Web Development and design from Brigham Young University Idaho. I love to make clean minimalist designs.</p>
             </div>
-            
-            <div id="skills" class="skills inner-spacing">
-                <h1><span id="blue">Skills</span>_</h1>
-                <div class="skills-grid">
-                    <div>HTML 5</div>
-                    <div class="bar"></div>
+        </section>
+        
+        <section id="skills" class="skills">
+            <h3 class="blue">Skills</h3>
+            <div class="skills-grid">
+                <div>HTML 5</div>
+                <div class="bar"></div>
 
-                    <div id="blue">CSS 3</div>
-                    <div class="bar"></div>
+                <div class="blue">CSS 3</div>
+                <div class="bar"></div>
 
-                    <div>Adobe Illustrator</div>
-                    <div class="bar"></div>
+                <div>Adobe Illustrator</div>
+                <div class="bar"></div>
 
-                    <div id="blue">Adobe InDesign</div>
-                    <div class="bar"></div>
+                <div class="blue">Adobe InDesign</div>
+                <div class="bar"></div>
 
-                    <div>Adobe Photoshop</div>
-                    <div class="bar"></div>
+                <div>Adobe Photoshop</div>
+                <div class="bar"></div>
 
-                    <div id="blue">Adobe XD</div>
-                    <div class="bar"></div>
+                <div class="blue">Adobe XD</div>
+                <div class="bar"></div>
 
-                    <div>Responsive Design</div>
-                    <div class="bar"></div>
+                <div>Responsive Design</div>
+                <div class="bar"></div>
 
-                    <div id="blue">Interpersonal</div>
-                    <div class="bar"></div>
+                <div class="blue">Interpersonal</div>
+                <div class="bar"></div>
 
-                    <div>JavaScript</div>
-                    <div class="bar"></div>
+                <div>JavaScript</div>
+                <div class="bar"></div>
 
-                    <div id="blue">json</div>
-                    <div class="bar"></div>
+                <div class="blue">json</div>
+                <div class="bar"></div>
 
-                    <div>PHP</div>
-                    <div class="bar"></div>
+                <div>PHP</div>
+                <div class="bar"></div>
 
-                    <div id="blue">Google Analytics</div>
-                    <div class="bar"></div>
-                </div>
+                <div class="blue">Google Analytics</div>
+                <div class="bar"></div>
             </div>
-            
-            <div id="portfolio" class="portfolio black-bg inner-spacing">
-                <h1><span id="blue">Portfolio</span>_</h1>
+        </section>
+        
+        <section id="portfolio" class="portfolio black-bg">
+            <h3 class="blue">Portfolio</h3>
 
-                <a href="https://connorhughbyui.github.io/code%20for%20swplumbing%20site/index.html">
-                    <img src="images/swplumb-op-large.jpg" alt="SWPlumbing Supply">
-                </a>
-                <a href="https://mowro.com/">
-                    <img src="images/mowro-op-large.jpg" alt="Mowro By Redback">
-                </a>
-                <a href="https://www.adamsandco.net/">
-                    <img src="images/adams-op-large.jpg" alt="Adams &amp; Co">
-                </a>
-                <a href="https://www.gogreenentinc.com/">
-                    <img src="images/gogreen-op-large.jpg" alt="G.O.Green Enterprices Inc.">   
-                </a>
+            <a href="https://connorhughbyui.github.io/code%20for%20swplumbing%20site/index.html">
+                <img src="images/swplumb-op-large.jpg" alt="SWPlumbing Supply">
+            </a>
+            <a href="https://mowro.com/">
+                <img src="images/mowro-op-large.jpg" alt="Mowro By Redback">
+            </a>
+            <a href="https://www.adamsandco.net/">
+                <img src="images/adams-op-large.jpg" alt="Adams &amp; Co">
+            </a>
 
-                <h3 id="blue">More of My Design Work</h3>
-                <p><a href="https://www.behance.net/connorhugh">Behance Portfolio</a></p>
+            <h6><a href="https://www.behance.net/connorhugh">Click Here To See More Design Work And My Design Process.</a></h6>
+        </section>
+    </main>
+
+    <footer>
+        <section id="social" class="contact">
+            <h3 class="blue">Social Media</h3>
+            <div class="contact-links">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/connor-hugh-099b04117/">Linkedin</a></li>
+                    <li><a href="https://www.behance.net/connorhugh">Behance</a></li>
+                </ul>
             </div>
-        </main>
-
-        <footer>
-            <div id="contact" class="contact inner-spacing">
-                <h1><span id="blue">Contact Me</span>_</h1>
-                <div class="contact-links">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/connor-hugh-099b04117/">Linkedin</a></li>
-                        <li>connorhugh@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </div>
+        </section>
+    </footer>
 
 </body>
 
