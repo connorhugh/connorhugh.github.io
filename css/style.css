@@ -118,9 +118,8 @@ nav ul li {
 .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 1.5em;
     color: #ffffff;
-    font-size: 25px;
     text-align: right;
     width: 775px;
 }
@@ -243,10 +242,7 @@ nav ul li {
         font-size: 3em;
         margin-bottom: .125em;
     }
-    h6 {
-        font-size: 16px;
-    }
-    p, .subIntro {
+    p, .subIntro, h6 {
         font-size: 16px;
     }
 
@@ -267,6 +263,7 @@ nav ul li {
 
     .skills-grid {
         margin-top: 8px;
+        grid-gap: 1em;
     }
 
     .contact-links {
