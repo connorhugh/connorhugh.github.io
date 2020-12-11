@@ -12,7 +12,7 @@ body {
 .blue {
     color: #00b1dd;
 }
-.black-bg {
+.black--bg {
     background: #0f0e0e;
 }
 h1, h3 {
@@ -27,10 +27,8 @@ h3 {
     margin: 0 0 .5em;
 }
 h6 {
-    /* font-size: 2em; */
     font-size: 25px;
     margin: 0;
-    /* text-align: center; */
 }
 p, li {
     font-size: 1.2em;
@@ -87,12 +85,12 @@ nav ul li {
 .welcome {
     height: 650px;
 }
-.intro {
+.welcome__intro{
     font-size: 12em;
     margin: 0;
     line-height: 0.5;
 }
-.subIntro {
+.welcome__subIntro {
     font-size: 25px;
     margin: 32px 0 0 30px;
     justify-content: flex-start;
@@ -125,46 +123,36 @@ nav ul li {
 }
 .bar {
     background-color: #ffffff;
-    /* width: 15em; */
     width: 100%;
 }
 .bar:nth-child(4n) {
     background-color: #00b1dd;
 }
 .bar:nth-child(4) {
-    /* width: 13em; */
     width: 85%;
 }
 .bar:nth-child(8) {
-    /* width: 9em; */
     width: 61%;
 }
 .bar:nth-child(10) {
-    /* width: 11em; */
     width: 74%;
 }
 .bar:nth-child(12) {
-    /* width: 13em; */
     width: 85%;
 }
 .bar:nth-child(14) {
-    /* width: 13em; */
     width: 85%;
 }
 .bar:nth-child(18) {
-    /* width: 5em; */
     width: 33%;
 }
 .bar:nth-child(20) {
-    /* width: 4em; */
     width: 22%;
 }
 .bar:nth-child(22) {
-    /* width: 5em; */
     width: 33%;
 }
 .bar:nth-child(24) {
-    /* width: 7em; */
     width: 46%;
 }
 
@@ -177,11 +165,11 @@ nav ul li {
 .portfolio img:hover {
     opacity: 0.5;
 }
-.contact-links ul {
+.social__contact-links ul {
     padding: 0;
     margin: 0;
 }
-.contact-links ul li{
+.social__contact-links ul li{
     display: inline-block;
     margin: 0 1em;
 }
@@ -195,7 +183,6 @@ nav ul li {
         margin-bottom: .25em;
     }
     h6 {
-        /* font-size: 1.5em; */
         font-size: 21px;
     }
     
@@ -216,14 +203,12 @@ nav ul li {
         display: none;
     }
     .welcome {
-        /* height: 485px; */
         height: 27em;
     }
-    .intro {
+    .welcome__intro{
         font-size: 9em;
     }
-    .subIntro {
-        /* font-size: 21px; */
+    .welcome__subIntro {
         margin: 25px 0 0 22px;
     }
 }
@@ -242,14 +227,14 @@ nav ul li {
         font-size: 3em;
         margin-bottom: .125em;
     }
-    p, .subIntro, h6 {
+    p, .welcome__subIntro, h6 {
         font-size: 16px;
     }
 
-    .intro {
+    .welcome__intro{
         font-size: 4.5em;
     }
-    .subIntro {
+    .welcome__subIntro {
         margin: 14px 0 0 11px;
     }
 
@@ -266,7 +251,7 @@ nav ul li {
         grid-gap: 1em;
     }
 
-    .contact-links {
+    .social__contact-links {
         margin-top: 1em;
     }
 }
