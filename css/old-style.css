@@ -1,0 +1,258 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-style: normal;
+    font-weight: 200;
+}
+.blue {
+    color: #00b1dd;
+}
+.black--bg {
+    background: #0f0e0e;
+}
+h1, h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+h1, h3, h6, p, li {
+    color: white;
+}
+h3 {
+    font-size: 3.5em;
+    margin: 0 0 .5em;
+}
+h6 {
+    font-size: 25px;
+    margin: 0;
+}
+p, li {
+    font-size: 1.2em;
+}
+p {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #00b1dd;
+}
+img {
+    max-width: 100%;
+}
+section {
+    padding: 6em 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+}
+.logo {
+    margin: 2em;
+    width: 130px;
+    height: auto;
+}
+nav {
+    padding-right: 2em;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    padding: 0 0 0 2em;
+    font-size: 25px;
+}
+
+/* Welcome Intro */
+.welcome {
+    height: 650px;
+}
+.welcome__intro{
+    font-size: 12em;
+    margin: 0;
+    line-height: 0.5;
+}
+.welcome__subIntro {
+    font-size: 25px;
+    margin: 32px 0 0 30px;
+    justify-content: flex-start;
+}
+
+/* About Section */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6em;
+}
+.about__img {
+    justify-self: end;
+}
+.descript {
+    width: 444px;
+}
+.descript p {
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+    color: #ffffff;
+    text-align: right;
+    width: 775px;
+}
+.bar {
+    background-color: #ffffff;
+    width: 100%;
+}
+.bar:nth-child(4n) {
+    background-color: #00b1dd;
+}
+.bar:nth-child(4) {
+    width: 85%;
+}
+.bar:nth-child(8) {
+    width: 61%;
+}
+.bar:nth-child(10) {
+    width: 74%;
+}
+.bar:nth-child(12) {
+    width: 85%;
+}
+.bar:nth-child(14) {
+    width: 85%;
+}
+.bar:nth-child(18) {
+    width: 33%;
+}
+.bar:nth-child(20) {
+    width: 22%;
+}
+.bar:nth-child(22) {
+    width: 33%;
+}
+.bar:nth-child(24) {
+    width: 46%;
+}
+
+/* Portfolio Section */
+.portfolio img {
+    width: auto;
+    height: auto;
+    margin: 0 0 2em;
+}
+.portfolio img:hover {
+    opacity: 0.5;
+}
+.social__contact-links ul {
+    padding: 0;
+    margin: 0;
+}
+.social__contact-links ul li{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+/* Responsiveness Section */
+@media only screen and (max-width: 1024px) {
+    nav ul li {
+        font-size: 21px;
+    }
+    h3 {
+        margin-bottom: .25em;
+    }
+    h6 {
+        font-size: 21px;
+    }
+    
+    .about {
+        grid-gap: 3em;
+    }
+    .descript {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 927px) {
+    .logo {
+        margin: 2em auto;
+        width: 95px;
+    }
+    nav {
+        display: none;
+    }
+    .welcome {
+        height: 27em;
+    }
+    .welcome__intro{
+        font-size: 9em;
+    }
+    .welcome__subIntro {
+        margin: 25px 0 0 22px;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .skills-grid {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    section {
+        padding: 2em 2em 3em;
+    }
+    h3 {
+        font-size: 3em;
+        margin-bottom: .125em;
+    }
+    p, .welcome__subIntro, h6 {
+        font-size: 16px;
+    }
+
+    .welcome__intro{
+        font-size: 4.5em;
+    }
+    .welcome__subIntro {
+        margin: 14px 0 0 11px;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        grid-gap: 1.5em;
+    }
+    .about__img {
+        justify-self: center;
+    }
+
+    .skills-grid {
+        margin-top: 8px;
+        grid-gap: 1em;
+    }
+
+    .social__contact-links {
+        margin-top: 1em;
+    }
+}
