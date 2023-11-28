@@ -26,6 +26,13 @@ h3 {
     margin: 0;
     height: 5rem;
 }
+h4 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
 h6 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -33,9 +40,11 @@ h6 {
     margin: 0;
     height: 1.875rem;
 }
-p, li {
-    font-size: 1.5rem;
+p {
+    font-size: 1rem;
+    margin: 0;
 }
+
 
 /* Header Styles */
 header {
@@ -55,6 +64,7 @@ nav ul {
 }
 nav ul li {
     list-style-type: none;
+    font-size: 1.5rem;
 }
 a {
     text-decoration: none;
@@ -69,7 +79,7 @@ section {
     align-items: flex-start;
 }
 .section-style {
-    gap: 1.5rem;
+    gap: 2rem;
 }
 .content {
     width: 1440px;
@@ -85,6 +95,7 @@ section {
 .intro__p {
     width: 709px;
     margin: 0 0 0 0.5rem;
+    font-size: 1.5rem;
 }
 
 /* Skills Section */
@@ -117,14 +128,57 @@ section {
 .portfolio__row {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     gap: 1.5rem;
     align-self: stretch;
 }
-.portfolio__tile {
+.portfolio__row a {
     width: 100%;
+}
+.portfolio__tile {
     height: 22rem;
     border-radius: 1.5rem;
-    background-color: #000000;
+    background-color: #121212;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.portfolio__tile:hover {
+    outline: 1px solid #FFF;
+    background: #171717;
+}
+.tags-container {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+}
+.tag--color-one {
+    background-color: #26474E;
+}
+.tag--color-two {
+    background-color: #9E4729;
+}
+.tag--color-three {
+    background-color: #197678;
+}
+.tag--color-four {
+    background-color: #994239;
 }
 
 /* Contact Me Section */
