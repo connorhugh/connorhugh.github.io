@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5.5rem;
+    gap: 10rem;
     padding: 1.5rem 0rem;
-    background-color: #1a1a1a;
+    background-color: #262626;
     font-family: 'Source Sans 3', sans-serif;
     font-style: normal;
     color: #ffffff;
@@ -33,8 +33,8 @@ h6 {
     margin: 0;
     height: 1.875rem;
 }
-p {
-    font-size: 1rem;
+p, li {
+    font-size: 1.5rem;
 }
 
 /* Header Styles */
@@ -88,6 +88,9 @@ section {
 }
 
 /* Skills Section */
+.skills {
+    display: none;
+}
 .skills__row {
     display: flex;
     width: 100%;
@@ -131,4 +134,5 @@ section {
 }
 .contact__icon {
     margin-right: 0.5rem;
+    width: 36px;
 }
