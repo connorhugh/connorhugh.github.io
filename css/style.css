@@ -42,7 +42,7 @@ h6 {
 }
 p {
     font-size: 1rem;
-    margin: 0;
+    margin: 0 0 .25rem;
 }
 
 
@@ -189,4 +189,29 @@ section {
 .contact__icon {
     margin-right: 0.5rem;
     width: 36px;
+}
+
+/* Post CSS */
+.post-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+.post__img {
+    border-radius: 1.5rem;
+}
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 50.25rem;
+}
+.post__styling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
 }
