@@ -10,7 +10,7 @@
     <title>New Portfolio Site</title>
 </head>
 <body class="layout">
-    <header class="section-style">
+    <header>
         <!-- Logo -->
         <img src="images/new-logo.svg" class="logo" alt="personal logo">
 
@@ -20,31 +20,87 @@
                 <li><a href="#home" class="nav__item">Home</a></li>
                 <!-- <li><a href="#skills">Skills</a></li> -->
                 <li><a href="#portfolio" class="nav__item">Portfolio</a></li>
-                <li><a href="#social" class="nav__item">Social Media</a></li>
+                <li><a href="#contact" class="nav__item">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     
-    <!-- Intro -->
-    <section class="intro section-style">
-        <div class="intro__text">
-            <h1>Hi There!</h1>
-            <p class="intro__p">I'm Connor Hugh, a lead UX designer for the U.S. Air Force. I'm passionate about creating an eye catching and functional user-centered experience. Thank you for checking out my portfolio.</p>
-        </div>
-        <img src="images/me2.png" class="intro__img" alt="profile picture">
-    </section>
+    <main class="content layout">
+        <!-- Intro -->
+        <section class="intro">
+            <div class="intro__text">
+                <h1>Hi There!</h1>
+                <p class="intro__p">I'm Connor Hugh, a lead UX designer for the U.S. Air Force. I'm passionate about creating an eye catching and functional user-centered experience. Thank you for checking out my portfolio.</p>
+            </div>
+            <img src="images/me2.png" class="into__img" alt="profile picture">
+        </section>
 
-    <!-- Portfolio -->
-    <main id="portfolio" class="portfolio section-style">
-        <h3>Portfolio</h3>
+        <!-- Skills -->
+        <section id="skills" class="skills section-style">
+            <h3>Skills</h3>
+            <div class="skills__row">
+                <!-- column 1 -->
+                <img src="images/design-tile.png" class="skills__img" alt="">
+                <div class="skills__row--group">
+                    <h6>Design</h6>
+                    <ul class="skills__list">
+                        <li>User-centered design</li>
+                        <li>User research</li>
+                        <li>Visual design</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
 
-        <!-- Past Work Row -->
-        <div class="portfolio__sub-section">
+                <!-- column 2 -->
+                <img src="images/soft-skills-tile.png" class="skills__img" alt="">
+                <div class="skills__row--group">
+                    <h6>Soft Skills</h6>
+                    <ul class="skills__list">
+                        <li>Problem solving</li>
+                        <li>Communication</li>
+                        <li>Colaboration</li>
+                        <li>Empathy</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="skills__row">
+                <!-- column 1 -->
+                <img src="images/software-tile.png" class="skills__img" alt="">
+                <div class="skills__row--group">
+                    <h6>Software Programs</h6>
+                    <ul class="skills__list">
+                        <li>Figma</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                    </ul>
+                </div>
+
+                <!-- column 2 -->
+                <img src="images/code-tile.png" class="skills__img" alt="">
+                <div class="skills__row--group">
+                    <h6>Front-end Development</h6>
+                    <ul class="skills__list">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio section-style">
+            <h3>Portfolio</h3>
+
+            <!-- Past Work Row -->
+            <div class="portfolio__sub-section">
                 <h6>Work</h6>
                 <div class="portfolio__row">
                     <a href="post.html">
                         <div class="portfolio__tile">
-                            <h4>U.S. Air Force</h4>
+                            <h4>U.S. Air Force - Torque</h4>
                             <div class="tags-container">
                                 <div class="tag tag--color-one">UX Design</div>
                                 <div class="tag tag--color-two">UI Design</div>
@@ -73,10 +129,10 @@
                         </div>
                     </a>
                 </div>
-        </div>
+            </div>
 
-        <!-- Design Sandbox Row -->
-        <div class="portfolio__sub-section">
+            <!-- Design Sandbox Row -->
+            <div class="portfolio__sub-section">
                 <h6>Design Sandbox</h6>
                 <div class="portfolio__row">
                     <a href="#">
@@ -98,71 +154,17 @@
                         </div>
                     </a>
                 </div>
-        </div>   
+            </div>
+        </section>
+
+        <!-- Contact  -->
+        <section id="contact" class="contact section-style">
+            <h3>Social Media</h3>
+            <div>
+                <a href="https://www.linkedin.com/in/connorhugh/" target="_blank"><img src="images/linkedin-icon.svg" class="contact__icon" alt="Linkedin icon and link"></a>
+                <a href="https://www.behance.net/connorhugh" target="_blank"><img src="images/behance-icon.svg" class="contact__icon" alt="Behance icon and link"></a>
+            </div>
+        </section>
     </main>
-    
-    <!-- Skills -->
-    <section id="skills" class="skills section-style">
-        <h3>Skills</h3>
-        <div class="skills__row">
-            <!-- column 1 -->
-            <img src="images/design-tile.png" class="skills__img" alt="">
-            <div class="skills__row--group">
-                <h6>Design</h6>
-                <ul class="skills__list">
-                    <li>User-centered design</li>
-                    <li>User research</li>
-                    <li>Visual design</li>
-                    <li>Prototyping</li>
-                </ul>
-            </div>
-
-            <!-- column 2 -->
-            <img src="images/soft-skills-tile.png" class="skills__img" alt="">
-            <div class="skills__row--group">
-                <h6>Soft Skills</h6>
-                <ul class="skills__list">
-                    <li>Problem solving</li>
-                    <li>Communication</li>
-                    <li>Colaboration</li>
-                    <li>Empathy</li>
-                    <li>Adaptability</li>
-                </ul>
-            </div>
-            
-        </div>
-        <div class="skills__row">
-            <!-- column 1 -->
-            <img src="images/software-tile.png" class="skills__img" alt="">
-            <div class="skills__row--group">
-                <h6>Software Programs</h6>
-                <ul class="skills__list">
-                    <li>Figma</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe Photoshop</li>
-                </ul>
-            </div>
-
-            <!-- column 2 -->
-            <img src="images/code-tile.png" class="skills__img" alt="">
-            <div class="skills__row--group">
-                <h6>Front-end Development</h6>
-                <ul class="skills__list">
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>Javascript</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Media  -->
-    <footer id="social" class="social section-style">
-        <h3>Social Media</h3>
-        <div>
-            <a href="https://www.linkedin.com/in/connorhugh/" target="_blank"><img src="images/linkedin-icon.svg" class="social__icon" alt="Linkedin icon and link"></a>
-            <a href="https://www.behance.net/connorhugh" target="_blank"><img src="images/behance-icon.svg" class="social__icon" alt="Behance icon and link"></a>
-        </div>
-    </footer>
 </body>
 </html>
