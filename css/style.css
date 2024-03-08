@@ -162,11 +162,7 @@ a {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.5rem;
-    flex: 1 0 0;
-    align-self: stretch;
+    gap: 2rem;
 }
 .portfolio__tile:hover {
     outline: 1px solid #FFF;
@@ -175,6 +171,11 @@ a {
     width: 100%;
     height: auto;
     border-radius: 1rem;
+}
+.portfolio__spacing {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .tags-container {
     display: flex;
