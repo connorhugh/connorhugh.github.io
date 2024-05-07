@@ -80,11 +80,6 @@ a {
     outline: 1px solid #FFF;
 }
 
-/* Hamburger Menu Styles */
-#menu__toggle {
-    opacity: 0;
-  }
-
 
 /* Section Styles */
 .section-style {
@@ -145,12 +140,15 @@ a {
     gap: 0.5rem;
     align-self: stretch;
 }
+.portfolio__sub-section:last-child {
+    margin-top: 1rem;
+}
 .portfolio__row {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 1.5rem;
-    align-self: stretch;
+    /* align-self: stretch; */
 }
 .portfolio__row a {
     width: 100%;
@@ -206,6 +204,38 @@ a {
     background-color: #994239;
 }
 
+
+/* About Me Section */
+.about {
+    flex-direction: column;
+}
+.skills__tile {
+    gap: 0.25rem;
+}
+.skills__tile-header {
+    display: flex;
+    gap: 0.5rem;
+}
+.skills__ul {
+    padding-left: 1.5rem;
+}
+.passions-row {
+    display: flex;
+    gap: 1.25rem;
+}
+.portfolio__row--column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.about__tile {
+    gap: 1rem;
+}
+.about_tile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
 
 /* Social Media Section */
 .social {
@@ -282,9 +312,9 @@ a {
     h4 {
         font-size: 2.25rem;
     }
-    .intro__img {
-        /* width: 438px; */
-    }
+    /* .intro__img {
+        width: 438px;
+    } */
     .portfolio__row {
         gap: 1rem;
     }
