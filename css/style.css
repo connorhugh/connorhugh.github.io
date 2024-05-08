@@ -165,6 +165,9 @@ a {
 .portfolio__tile:hover {
     outline: 1px solid #FFF;
 }
+.no-hover:hover {
+    outline: 0;
+}
 .portfolio__tile--img {
     width: 100%;
     height: auto;
