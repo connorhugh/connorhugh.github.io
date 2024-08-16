@@ -145,7 +145,7 @@ a {
     align-self: stretch;
 }
 .portfolio__sub-section:last-child {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .portfolio__row {
     display: flex;
@@ -175,7 +175,7 @@ a {
 .portfolio__tile--img {
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 .portfolio__spacing {
     display: flex;
@@ -281,7 +281,7 @@ a {
     justify-content: center;
 }
 .post__img {
-    border-radius: 1.5rem;
+    border-radius: .5rem;
     width: 100%;
     height: auto;
 }
