@@ -54,6 +54,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    width: 4rem;
+}
+
 ul, ol {
     margin: 0;
 }
@@ -81,7 +86,7 @@ a {
     border-radius: 1rem;
 }
 .menu__item:hover {
-    outline: 1px solid #FFF;
+    outline: 1px solid #919191;
 }
 
 
@@ -167,7 +172,7 @@ a {
     gap: 2rem;
 }
 .portfolio__tile:hover {
-    outline: 1px solid #FFF;
+    outline: 1px solid #919191;
 }
 .no-hover:hover {
     outline: 0;
